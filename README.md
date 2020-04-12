@@ -9,7 +9,7 @@ In the project directory, you can run:
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Informacje o projekcie:
+## Informacje o projekcie:
 
 - temat: Wykonanie projektu realizującego podstawową funkcjonalność typu CRUD
 - zakres: Przygotowanie UI, budowa logiki aplikacji, synchronizacja z bazą danych
