@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Uruchomienie projektu
 
-In the project directory, you can run:
+Po sklonowaniu repozytorium, w terminalu należy przejść do katalogu z projektem, użyć komendy `npm install`, a po ukończonej instalacji `npm start`. Projekt wymaga instalacji node.js oraz npm.
 
 ### `npm start`
 
