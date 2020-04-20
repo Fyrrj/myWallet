@@ -35,6 +35,14 @@ h2 {
   color: #fff;
 }
 
+h2.balance-h {
+  animation-name: toggleGrow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  height: 25px;
+}
+
 h3,
 h4 {
   font-size: 3rem;
@@ -89,21 +97,21 @@ h4 {
 }
 
 .plus {
-  border-right: 4px solid rgb(63, 196, 23);
+  border-right: 8px solid rgb(67, 180, 33);
 }
 
 .minus {
-  border-right: 4px solid rgb(233, 25, 53);
+  border-right: 8px solid rgb(233, 25, 53);
 }
 
 .money-plus {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 600;
-  color: rgb(63, 196, 23);
+  color: rgb(67, 180, 33);
 }
 
 .money-minus {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 600;
   color: rgb(233, 25, 53);
 }
@@ -111,11 +119,14 @@ h4 {
 ul {
   display: flex;
   flex-direction: column;
-  width: 280px;
+  align-items: center;
+  width: 380px;
+  max-height: 184px;
   margin: 10px auto;
   background-color: #111;
   border-top: 2px solid #ccc;
   border-bottom: 2px solid #ccc;
+  overflow-y: scroll;
 }
 
 ul li {
@@ -126,7 +137,8 @@ ul li {
   align-items: center;
   width: 280px;
   height: 40px;
-  padding: 10px 20px;
+  padding: 15px 20px;
+  margin-left: 35px;
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #fff;
@@ -181,10 +193,13 @@ label {
   font-size: 1.2rem;
   color: #fff;
   padding: 20px;
+  width: 260px;
 }
 
 input {
+  font-family: "Quicksand", sans-serif;
   padding: 10px 20px;
+  width: 220px;
   border: none;
 }
 
@@ -194,4 +209,37 @@ div.form-control {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+@keyframes toggleGrow {
+  0% {
+    font-size: 2.5rem;
+  }
+
+  25% {
+    font-size: 2.2rem;
+  }
+
+  75% {
+    font-size: 2rem;
+  }
+
+  100% {
+    font-size: 2.5rem;
+  }
 }
