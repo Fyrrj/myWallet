@@ -1,4 +1,4 @@
-![Logo of myWallet](https://octodex.github.com/images/yaktocat.png)
+![Logo of myWallet](https://github.com/Fyrrj/myWallet/blob/master/src/imgs/logo.PNG?raw=true)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
