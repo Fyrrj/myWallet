@@ -4,12 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Uruchomienie projektu:
 
-Po sklonowaniu repozytorium, w terminalu należy przejść do katalogu z projektem, użyć komendy `npm install`, a po ukończonej instalacji `npm start`. Projekt wymaga instalacji node.js oraz npm.
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:1410](http://localhost:1410) to view it in the browser.
+https://ancient-meadow-10141.herokuapp.com/
 
 ## Informacje o projekcie:
 
