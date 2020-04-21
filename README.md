@@ -19,6 +19,6 @@ Open [http://localhost:1410](http://localhost:1410) to view it in the browser.
 
 ## Screeny aplikacji:
 
-![Main screen of app](https://github.com/Fyrrj/myWallet/blob/master/client/src/imgs/logo.PNG?raw=true)
-![Database look](https://github.com/Fyrrj/myWallet/blob/master/client/src/imgs/logo.PNG?raw=true)
-![Postman look](https://github.com/Fyrrj/myWallet/blob/master/client/src/imgs/logo.PNG?raw=true)
+![Main screen of app](https://github.com/Fyrrj/myWallet/blob/master/client/src/imgs/mainapp.PNG?raw=true)
+![Database look](https://github.com/Fyrrj/myWallet/blob/master/client/src/imgs/database.PNG?raw=true)
+![Postman look](https://github.com/Fyrrj/myWallet/blob/master/client/src/imgs/postman.PNG?raw=true)
